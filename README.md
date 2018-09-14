@@ -7,6 +7,6 @@ This repository contains the following:
 
 It has the following rules:
 
-1. **No query information**. This is just about providing people with practice data
-2. **Be transparent**. Comment your code so it's easier to catch and post mistakes. Attach README files to explain your reasoning if you need to.
+1. **No query information or other homework answers**. This is just about providing people with practice data
+2. **Be reproducible**. Comment your code so it's easier to catch and post mistakes. Attach README files to explain your reasoning if you need to.
 

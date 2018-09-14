@@ -42,7 +42,7 @@ enroll <- data.frame(sid = rep(sids, 3),
 write.table(student, "Student.csv",
             row.names = F,
             col.names = T)
-write.table(dept, "Dept.csv",
+write.table(dept, "Dept_p2.csv",
             row.names = F,
             col.names = T)
 write.table(prof, "Prof.csv",

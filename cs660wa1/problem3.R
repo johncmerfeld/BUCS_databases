@@ -28,6 +28,6 @@ write.table(emp, "Emp.csv",
 write.table(works, "Works.csv",
             row.names = F,
             col.names = T)
-write.table(dept, "Dept.csv",
+write.table(dept, "Dept_p3.csv",
             row.names = F,
             col.names = T)

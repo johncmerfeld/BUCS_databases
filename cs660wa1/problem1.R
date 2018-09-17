@@ -10,7 +10,7 @@ suppliers = data.frame(sid = sids,
                                    "Just off I-94",
                                    "www.partazon.com",
                                    "www.eparts.com/parts",
-                                   "Out past the old Hawkins house"))
+                                   "Out past the Hawkins house"))
                        ))
 
 # initialize parts table
@@ -45,13 +45,16 @@ catalog <- data.frame(sid = csid,
 # write tables Suppliers, Parts, Catalog to CSV
 
 write.table(suppliers, "Suppliers.csv",
+            sep = ",",
             row.names = F,
             col.names = T)
 
 write.table(parts, "Parts.csv",
+            sep = ",",
             row.names = F,
             col.names = T)
 
 write.table(catalog, "Catalog.csv",
+            sep = ",",
             row.names = F,
             col.names = T)

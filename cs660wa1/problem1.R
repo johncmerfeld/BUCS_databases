@@ -11,7 +11,7 @@ suppliers = data.frame(sid = sids,
                                    "www.partazon.com",
                                    "www.eparts.com/parts",
                                    "Out past the Hawkins house"))
-                       ))
+                       
 
 # initialize parts table
 pids = sample.int(100,14)

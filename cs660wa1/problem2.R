@@ -52,12 +52,15 @@ write.table(course, "Course.csv",
             row.names = F,
             col.names = T)
 write.table(major, "Major.csv",
+            sep = ",",
             row.names = F,
             col.names = T)
 write.table(section, "Section.csv",
+            sep = ",",
             row.names = F,
             col.names = T)
 write.table(enroll, "Enroll.csv",
+            sep = ",",
             row.names = F,
             col.names = T)
 

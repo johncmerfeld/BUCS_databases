@@ -23,11 +23,14 @@ dept <- data.frame(did = dids,
                    managerid = sample(eids, 5))
 
 write.table(emp, "Emp.csv",
+            sep = ",",
             row.names = F,
             col.names = T)
 write.table(works, "Works.csv",
+            sep = ",",
             row.names = F,
             col.names = T)
 write.table(dept, "Dept_p3.csv",
+            sep = ",",
             row.names = F,
             col.names = T)

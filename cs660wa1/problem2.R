@@ -40,15 +40,19 @@ enroll <- data.frame(sid = rep(sids, 3),
                      sectno = c(rep(1, 45), rep(2,45))) 
 
 write.table(student, "Student.csv",
+            sep = ",",
             row.names = F,
             col.names = T)
 write.table(dept, "Dept_p2.csv",
+            sep = ",",
             row.names = F,
             col.names = T)
 write.table(prof, "Prof.csv",
+            sep = ",",
             row.names = F,
             col.names = T)
 write.table(course, "Course.csv",
+            sep = ",",
             row.names = F,
             col.names = T)
 write.table(major, "Major.csv",

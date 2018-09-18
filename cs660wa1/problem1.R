@@ -40,7 +40,7 @@ for (i in 1:50) {
 
 catalog <- data.frame(sid = csid,
                       pid = cpid,
-                      price = cprice)
+                      cost = cprice)
 
 # write tables Suppliers, Parts, Catalog to CSV
 

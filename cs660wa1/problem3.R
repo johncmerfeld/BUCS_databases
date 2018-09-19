@@ -9,7 +9,7 @@ emp <- data.frame(eid = eids,
 
 dids <- sample.int(10, 5)
 works <- data.frame(eid = rep(eids,2),
-                    did = rep(dids, 4),
+                    did = c(rep(dids, 2), rep(rev(dids), 2)),
                     pct_time = c(seq(5, 95, 10),
                                  seq(95, 5, -10))
                     )
